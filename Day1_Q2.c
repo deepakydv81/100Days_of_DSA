@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-//Q2
+//Q2  return the indexes of two values which is equal to target.    
 int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
     int x,y;
     int* ot=malloc(2*sizeof(int));
@@ -40,4 +40,5 @@ int main() {
 
 
     return 0;
+
 }
